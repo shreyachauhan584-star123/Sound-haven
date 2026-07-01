@@ -1,4 +1,4 @@
-# 🎵 Harmony Hub
+# 🎵 Sound Heaven
 
 A responsive music streaming web interface inspired by Spotify, built using **HTML** and **CSS**. The project replicates the look and feel of Spotify's user interface with a modern dark theme, responsive layouts, and interactive elements.
 
