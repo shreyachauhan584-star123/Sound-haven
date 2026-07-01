@@ -59,8 +59,8 @@ screenshots/homepage.png
 
 **Shreya Chauhan**
 
-- GitHub: https://github.com/<your-github-username>
-- LinkedIn: https://linkedin.com/in/<your-linkedin-username>
+- GitHub: https://github.com/shreyachauhan584-star123/Sound-haven.git
+
 
 ---
 
