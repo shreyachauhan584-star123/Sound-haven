@@ -1,0 +1,343 @@
+body{
+    font-family: sans-serif;
+    margin : 0;
+    background-color: #000;
+    overflow: hidden;
+    color: #fff;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    
+}
+.main-content{
+    background-color: #121212;
+    flex : 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom : 0;
+    width : 100%;
+    height: 7px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav{
+    background-color: #121212;
+    border-radius : 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height : 100px;
+    padding : 0.5rem 0.75rem;
+}
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.75;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding : 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity:1;
+}
+.options{
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+}
+.icons{
+    font-size: 1.25rem;
+    
+    margin-right: 1rem;
+    display: flex;
+    
+
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icons i:hover{
+    opacity: 1;
+
+}
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0.5rem 0.75rem 0.5rem;
+    padding: 0.75rem 1rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+.badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top : 0.5rem;
+    height: 2rem;
+    width: fit-content;
+    opacity: 0.75;
+}
+.badge:hover{
+    opacity: 1;
+}
+.sticky-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    margin-top : 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    opacity: 0.7;
+    
+}
+.arrow:hover{
+    opacity: 1;
+}
+.text{
+    padding-right: 1rem;
+}
+.install {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+.right{
+    align-items: center;
+}
+.install i{
+    margin-left: 2rem;
+    
+}
+
+.install p{
+    margin-right : 2rem;
+}
+.main-content p {
+    margin-left: 0.75rem;
+    
+}
+.cards p{
+    font-size: 1.5rem;
+    margin-top : 1rem;
+}
+.card1{
+    height: 315px;
+    width: 230px;
+    background-color: #262525;
+    margin-left: 2rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+}
+.card1 img{
+    height: 200px;
+    width: 226px;
+    
+   padding: 0.22rem 0.22rem;
+}
+
+.card1 p{
+    color: #fff;
+    font-size: 20px;
+    
+    font-weight: 700;
+    
+
+   
+}
+.card1 text{
+    padding: 0%;
+}
+.text1 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.card2{
+    height: 315px;
+    width: 230px;
+    background-color: #262525;
+    margin-left: 2rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+}
+.card2 img{
+    height: 200px;
+    width: 226px;
+    
+   padding: 0.22rem 0.22rem;
+}
+.caard p{
+    color: #fff;
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+.text2 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.caard2{
+    height: 315px;
+    width: 230px;
+    background-color: #262525;
+    margin-left: 2rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+}
+.caard2 img{
+    height: 200px;
+    width: 226px;
+    
+   padding: 0.22rem 0.22rem;
+}
+.caard2 p{
+    color: #fff;
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+.text3 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.card2{
+    display: flex;
+}
+.caard3{
+    height: 315px;
+    width: 230px;
+    background-color: #262525;
+    margin-left: 2rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+}
+.caard3 img{
+    height: 200px;
+    width: 226px;
+    
+   padding: 0.22rem 0.22rem;
+}
+.caard3 p{
+    color: #fff;
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+.text4 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.caard4{
+    height: 315px;
+    width: 230px;
+    background-color: #262525;
+    margin-left: 2rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+}
+.caard4 img{
+    height: 200px;
+    width: 226px;
+    
+   padding: 0.22rem 0.22rem;
+}
+.caard4 p{
+    color: #fff;
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+.text5 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.caard5{
+    height: 315px;
+    width: 230px;
+    background-color: #262525;
+    margin-left: 2rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.caard5 img{
+    height: 200px;
+    width: 226px;
+    
+   padding: 0.22rem 0.22rem;
+}
+.caard5 p{
+    color: #fff;
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+.text6 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.first{
+    font-weight: 500;
+}
+.secpara{
+    font-weight: 500;
+}
+
